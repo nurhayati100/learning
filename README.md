@@ -1,4 +1,5 @@
-learning
-========
+# Ruby on Rails Tutorial: first application
 
-This content website is Learning Ruby on Rails tutorial
+This is the first application for the
+[*Ruby on Rails Tutorial*](http://railstutorial.org/)
+by [Michael Hartl](http://michaelhartl.com/).
