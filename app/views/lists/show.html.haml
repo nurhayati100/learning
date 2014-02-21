@@ -1,0 +1,12 @@
+.isi-articel
+  %p
+    %strong Title :
+    = @list.title
+  %p
+    %strong Category :
+    = @list.category
+  %p
+    %strong Body :
+    %span.text= @list.body
+%br
+= link_to 'Back', lists_path, :class => 'btn btn-primary'

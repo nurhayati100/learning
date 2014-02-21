@@ -1,0 +1,97 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+#articel{
+  width: 800px;
+  margin-top: 10px;
+}
+#error-explanation{
+  color:red;
+}
+#error-explanation ul li{
+  list-style: circle;
+  color: red;
+}
+#error-explanation span.error{
+  font-size: 25px;
+  font-weight: bold;
+}
+.span9 {
+  color: black;
+}
+table.data{
+  width:300px;
+  border-radius:10px;
+  border:2px dashed white;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+table.data tr td{
+  background-color: blue;
+}
+a{ color: black; }
+.isi{
+  margin: auto;
+  width: 700px;
+  border:1px dashed #000;
+  padding: 10px;
+  background-color: #00CCCC;
+  border-radius:5px;
+}
+.isi h1{color:white; text-align: center;}
+.isi span.text{
+  width: 100;
+  color:black;
+  margin: 1px;
+}
+.isi:hover{
+  background-color: #00CCFF;
+}
+.pic{border-radius: 5px;}
+.isi-articel{
+  width: 800px;
+  margin-top: 5px;
+  border:1px dashed #000;
+  padding: 10px;
+  background-color: #00CCFF;
+  border-radius:5px;
+}
+span.message{
+  color:red;
+}
+.login-section{
+  border:dashed 1px #000;
+  background-color: #00CCFF;
+}
+.about{
+  width: 850px;
+  color: black;
+  margin: 0;
+  padding: 5px;
+  border: dashed #ccc;
+  background-color: #f5f5f5;
+}
+.about span{
+  margin: 5px;
+  padding: 5px;
+}
+.about h2{text-align: center;}
+.about span ul{list-style-type:circle;}
+.footer{
+  color: black;
+  margin: 10px;
+  float:right;
+  width:300px;
+}
+span.post{color: blue;}

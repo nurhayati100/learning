@@ -1,0 +1,28 @@
+= form_for :list, url: lists_path do |f|
+  - if @list.errors.any?
+    #error-explanation
+      %span.error
+        Must require before save, please check :
+      %ul
+        - @list.errors.full_messages.each do |msg|
+          %li= msg
+  %p
+    = f.label :title
+    = f.text_field :title
+  %p
+    = f.label :category
+    = f.select(:category, options_for_select([['Ruby', 1], ['Rails', 2]],2))
+  %p
+    = f.label :body
+    = f.text_area :body
+  %p
+    = f.label :Published
+    = f.label(:pubished_yes, "Yes")
+    = f.radio_button(:published, "yes")
+    = f.label(:published_no, "No")
+    = f.radio_button(:published, "no")
+  %p
+    = f.label :attachment
+    = f.file_field :attachment
+  %p
+    = f.submit

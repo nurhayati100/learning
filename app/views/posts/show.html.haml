@@ -1,0 +1,14 @@
+%p
+  %strong TItle:
+  = @post.title
+%p
+  %strong Text:
+  = @post.text
+%h2 Says
+= render @post.says
+%h2 Add Comment:
+= render "says/form"
+
+
+= link_to 'Back', posts_path, :class => 'btn btn-primary'
+= link_to 'Edit', edit_post_path(@post), :class => 'btn btn-inverse'

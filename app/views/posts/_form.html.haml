@@ -1,0 +1,16 @@
+= form_for :post, url: posts_path do |f|
+  - if @post.errors.any?
+    #error-explanation
+      %span.error
+        Must require before save, please check :
+      %ul
+        - @post.errors.full_messages.each do |msg|
+          %li= msg
+  %p
+    = f.label :title
+    = f.text_field :title
+  %p
+    = f.label :text
+    = f.text_area :text
+  %p
+    = f.submit

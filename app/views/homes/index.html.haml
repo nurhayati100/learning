@@ -1,0 +1,20 @@
+%h1 Welcome to Learning Rails
+%br
+= image_tag "ruby.jpg", :class => "pic"
+%br
+%br
+.about
+  %h2= "Selamat Datang Di Forum Belajar Ruby On Rails"
+  %span
+    Learning Ruby on Rails kami buat untuk membantu anda dalam belajar memahami ruby on rails itu sendiri maka dari itu ini sangat bermanfaat untuk anda, anda bisa mendownload artikel tentang tutorial ruby on rails di sini, anda juga bisa memposting tutorial untuk sekedar sharing. selain itu anda juga bisa menanyakan trouble apa yang anda alami saat belajar ruby on rail di ask, sungguh menyenangkan bukan? Tunggu apalagi ayo join dan share in here guys. So Learning its fun :)
+  %span
+    %h3= "Bagaimana memulai dan apa saja yang harus dilakukan ?"
+    %ul
+      %li= "1.registrasi untuk jadi member"
+      %li= "2.berbagi ilmu sharing dengan membuat artikel atau berpartisipasi menjawab ask dengan komment"
+      %li= "3.mendownload artikel yang dapat membantu saat belajar ror"
+      %li= "4.menanyakan trouble di ask"
+    %h3= "Mudah bukan? so Tunggu apa lagi guys?"
+  %span
+    = link_to 'Registrasi', new_member_registration_path, :method => :get
+

@@ -1,0 +1,10 @@
+%p
+  %strong Commenter:
+  = say.commenter
+%p
+  %strong Comment:
+  = say.body
+%p
+  = link_to 'Destroy Say', [say.post, say], |
+    method: :delete,                                    |
+    data: { confirm: 'Are you sure?' }                  |
