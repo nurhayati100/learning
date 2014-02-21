@@ -5,7 +5,7 @@ class Member < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   # attr_accessible
-  attr_accessible :email, :password, :password_confirmation, :remember_me, :username
+  # attr_accessible :email, :password, :password_confirmation, :remember_me, :username
 
   # validation
   validates :email, presence: true

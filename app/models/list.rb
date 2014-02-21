@@ -1,7 +1,7 @@
 class List < ActiveRecord::Base
 
   # attr_accessible
-  attr_accessible :title, :category, :body, :published, :attachment, :member_id
+  # attr_accessible :title, :category, :body, :published, :attachment, :member_id
   mount_uploader :attachment, AttachmentUploader
 
   # validation

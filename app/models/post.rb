@@ -1,6 +1,6 @@
 class Post < ActiveRecord::Base
   # attr_accessible
-  attr_accessible :title, :text
+  # attr_accessible :title, :text
 
   # assosiation
   has_many :says, dependent: :destroy
