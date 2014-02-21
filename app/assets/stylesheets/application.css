@@ -91,7 +91,7 @@ span.message{
 .footer{
   color: black;
   margin: 10px;
-  float:right;
+  padding-top: 10px;
   width:300px;
 }
 span.post{color: blue;}
